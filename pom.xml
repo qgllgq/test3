@@ -3,18 +3,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>zhku.lgq</groupId>
     <artifactId>morecondition</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>morecondition</name>
+=======
+    <groupId>lgq.elasticsearch</groupId>
+    <artifactId>demo-springdata</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>demo-springdata</name>
+>>>>>>> 84478b0e6ec19aced89c091dc4e0d85924165fcd
     <description>Demo project for Spring Boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>2.1.1.RELEASE</version>
+=======
+        <version>2.1.0.RELEASE</version>
+>>>>>>> 84478b0e6ec19aced89c091dc4e0d85924165fcd
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -27,6 +40,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
@@ -59,6 +73,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+=======
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+>>>>>>> 84478b0e6ec19aced89c091dc4e0d85924165fcd
         </dependency>
     </dependencies>
 
@@ -68,6 +97,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+<<<<<<< HEAD
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -76,6 +106,8 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+=======
+>>>>>>> 84478b0e6ec19aced89c091dc4e0d85924165fcd
         </plugins>
     </build>
 

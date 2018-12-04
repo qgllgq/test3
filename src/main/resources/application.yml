@@ -1,4 +1,5 @@
 server:
+<<<<<<< HEAD
   port: 8099
 spring:
   datasource:
@@ -10,3 +11,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+=======
+  port: 8991
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      repositories:
+        enabled: true
+>>>>>>> 84478b0e6ec19aced89c091dc4e0d85924165fcd
